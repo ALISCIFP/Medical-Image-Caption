@@ -18,6 +18,20 @@ Pretrained models are provided [here](https://drive.google.com/open?id=0B7fNdx_j
 
 If you want to do evaluation only, then you can follow [this section](#generate-image-captions) after downloading the pretrained models.
 
+## Train your own network on ImageCLEF dataset
+ImageCLEF 2018 caption: http://www.imageclef.org/2018/caption
+
+ImageCLEF 2017 caption review: http://ceur-ws.org/Vol-1866/
+
+ImageCLEF 2017leaderboard: http://www.imageclef.org/2017/caption
+
+
+## Train your own network on Eric Xing's Medical image Caption paper https://arxiv.org/abs/1711.08195 dataset.
+
+### Download Chest X-ray  dataset and preprocessing.
+Download:https://www.dropbox.com/s/uanpmhfvpe7gbhk/chest_xray.zip?dl=0
+
+
 ## Train your own network on COCO
 
 ### Download COCO dataset and preprocessing
