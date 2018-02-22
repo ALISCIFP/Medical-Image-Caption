@@ -44,8 +44,8 @@ Download preprocessed coco captions from [link](http://cs.stanford.edu/people/ka
 Once we have these, we can now invoke the `prepro_*.py` script, which will read all of this in and create a dataset (two feature folders, a hdf5 label file and a json file).
 
 ```bash
-$ python scripts/prepro_labels.py --input_json Chest_Xray/dataset_labels.json --output_json Chest_Xray/cocotalk.json --output_h5 Chest_Xray/cocotalk
-$ python scripts/prepro_feats.py --input_json Chest_Xray/dataset_labels.json --output_dir Chest_Xray/cocotalk --images_root $IMAGE_ROOT
+$ python scripts/prepro_labels.py --input_json Chest_Xray/data_labels.json --output_json Chest_Xray/cocotalk.json --output_h5 Chest_Xray/cocotalk
+$ python scripts/prepro_feats.py --input_json Chest_Xray/data_labels.json --output_dir Chest_Xray/cocotalk --images_root $IMAGE_ROOT
 ```
 
 `prepro_labels.py` will map all words that occur <= 5 times to a special `UNK` token, and create a vocabulary for all the remaining words. The image information and vocabulary are dumped into `data/cocotalk.json` and discretized caption data are dumped into `data/cocotalk_label.h5`.
