@@ -30,6 +30,7 @@ ImageCLEF 2017leaderboard: http://www.imageclef.org/2017/caption
 
 ### Download Chest X-ray  dataset and preprocessing.
 Download:https://www.dropbox.com/s/uanpmhfvpe7gbhk/chest_xray.zip?dl=0
+jason preprocessed: https://www.dropbox.com/sh/zar9xooe0557wqp/AABagbPxDB3SAUBZoR1umguEa?dl=0
 
 
 ## Train your own network on COCO
